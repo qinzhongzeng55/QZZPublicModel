@@ -1,0 +1,6 @@
+framework module Pods_QZZPublicModel_Example {
+  umbrella header "Pods-QZZPublicModel_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

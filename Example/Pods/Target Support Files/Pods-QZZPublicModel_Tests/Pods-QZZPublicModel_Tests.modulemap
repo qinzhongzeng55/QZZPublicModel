@@ -1,0 +1,6 @@
+framework module Pods_QZZPublicModel_Tests {
+  umbrella header "Pods-QZZPublicModel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

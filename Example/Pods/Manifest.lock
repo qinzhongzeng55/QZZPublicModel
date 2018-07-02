@@ -1,0 +1,16 @@
+PODS:
+  - QZZPublicModel (0.1.0)
+
+DEPENDENCIES:
+  - QZZPublicModel (from `../`)
+
+EXTERNAL SOURCES:
+  QZZPublicModel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QZZPublicModel: 19e5822608491dc88a802f728bc563a74a8a6934
+
+PODFILE CHECKSUM: 082fc19c1399889abb7df73d393c552e78c54fd9
+
+COCOAPODS: 1.5.0
