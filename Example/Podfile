@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QZZPublicModel_Example' do
+  pod 'QZZPublicModel', :path => '../'
+
+  target 'QZZPublicModel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
