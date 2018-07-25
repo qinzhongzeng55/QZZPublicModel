@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		05051CB478D9CDC3B738D34A49818C3E /* Pods-QZZPublicModel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B08E1E69B1A831E7EC71A35C8AB91311 /* Pods-QZZPublicModel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		187744FE21081C68000339E7 /* ChatInfoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 187744FC21081C68000339E7 /* ChatInfoModel.h */; };
+		187744FF21081C68000339E7 /* ChatInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 187744FD21081C68000339E7 /* ChatInfoModel.m */; };
 		1C9709FBC508BF72286AD8E2428E88A2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F413F69481524F0F607BD0B092E679 /* ReplaceMe.m */; };
 		2F657168BDB87E1BB5D836299BA613CD /* QZZPublicModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A9F2FA1C5251A2A09D6EE4410C8E60 /* QZZPublicModel-dummy.m */; };
 		460B44445BF6721AE33893CD44896AE8 /* QZZPublicModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0E439E0B15593FBCE8FB3ACCF5AC47 /* QZZPublicModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,6 +45,8 @@
 /* Begin PBXFileReference section */
 		0A0E439E0B15593FBCE8FB3ACCF5AC47 /* QZZPublicModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QZZPublicModel-umbrella.h"; sourceTree = "<group>"; };
 		0F5634BA4A5CECE60EE02BF8119BBD8A /* OptionButtonModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OptionButtonModel.h; sourceTree = "<group>"; };
+		187744FC21081C68000339E7 /* ChatInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatInfoModel.h; sourceTree = "<group>"; };
+		187744FD21081C68000339E7 /* ChatInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatInfoModel.m; sourceTree = "<group>"; };
 		244A88EFB2BE2D48DF6E3AF871B9C234 /* Pods-QZZPublicModel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QZZPublicModel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		25EFCD1A7796D751252BB2D0643FBFE9 /* TableViewCellModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TableViewCellModel.m; sourceTree = "<group>"; };
 		2EC67FFBEEB0CA5531E39B5F77324DBF /* QZZPublicModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QZZPublicModel-prefix.pch"; sourceTree = "<group>"; };
@@ -205,6 +209,8 @@
 				799CF5AAA60738B270309702FB60C7DF /* OptionButtonModel.m */,
 				76052601E4D1E16610D6B6C941EBFE6D /* TableViewCellModel.h */,
 				25EFCD1A7796D751252BB2D0643FBFE9 /* TableViewCellModel.m */,
+				187744FC21081C68000339E7 /* ChatInfoModel.h */,
+				187744FD21081C68000339E7 /* ChatInfoModel.m */,
 			);
 			name = PublicModels;
 			path = QZZPublicModel/Classes/PublicModels;
@@ -257,6 +263,7 @@
 			files = (
 				614EFC4E3D744041147B6583A66614EA /* OptionButtonModel.h in Headers */,
 				460B44445BF6721AE33893CD44896AE8 /* QZZPublicModel-umbrella.h in Headers */,
+				187744FE21081C68000339E7 /* ChatInfoModel.h in Headers */,
 				52470E8488F184FFF155C9547D29C677 /* TableViewCellModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,6 +392,7 @@
 				7B526B416C8936EDE47A0C4CEB9795BF /* OptionButtonModel.m in Sources */,
 				2F657168BDB87E1BB5D836299BA613CD /* QZZPublicModel-dummy.m in Sources */,
 				1C9709FBC508BF72286AD8E2428E88A2 /* ReplaceMe.m in Sources */,
+				187744FF21081C68000339E7 /* ChatInfoModel.m in Sources */,
 				A1AF3FFB9E0861C8780ADC4D8318ADF0 /* TableViewCellModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
